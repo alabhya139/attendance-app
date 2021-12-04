@@ -1,0 +1,1 @@
+export const FETCH_CANDIDATE  = 'https://sumit-back-end-env.herokuapp.com/api/v1/candidates';
