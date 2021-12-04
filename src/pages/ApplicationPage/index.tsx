@@ -51,9 +51,9 @@ function ApplicationPage() {
           rows={rows}
           rowsPerPageOptions={[25, 50, 100]}
           loading={isLoading}
-          autoPageSize={true}
           disableSelectionOnClick={true}
           disableColumnSelector={true}
+          pageSize={25}
         />
       </TableContainer>
     </Container>
